@@ -1,0 +1,25 @@
+# Illustrative only. This is not an executable schema or admitted experiment.
+schema_version: concept-v0
+status: proposed
+
+experiment:
+  name: example-campaign
+  objective: "Declare the research question and success criterion"
+  source_identity: "declare-before-use"
+  entrypoint: "declare-before-use"
+  parameters: "declare-before-use"
+
+limits:
+  maximum_trials: "declare-before-use"
+  wall_clock: "declare-before-use"
+  repair_attempts: "declare-before-use"
+
+resources:
+  runtime_shape: "declare-before-use"
+  gpu_shape: "declare-before-use"
+  storage_floor: "declare-before-use"
+
+observability:
+  metrics: "declare-before-use"
+  checkpoint_policy: "declare-before-use"
+  reporting_policy: "declare-before-use"
